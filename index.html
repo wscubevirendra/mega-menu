@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+
+        header {
+            width: 100%;
+            /* border: 2px solid red; */
+            background-color: black;
+            height: 80px;
+
+        }
+
+        .container {
+            width: 1200px;
+            height: 80px;
+            /* border: 1px solid red; */
+            margin: auto;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+
+
+
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .menu>li {
+            width: 150px;
+
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 21px;
+            cursor: pointer;
+
+        }
+
+        .mega-menu {
+            background-color: white;
+            width: 100%;
+            height: 300px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            justify-content: space-around;
+            
+            position: absolute;
+            top: 78px;
+            left: -1000px;
+            visibility: hidden;
+            color: black;
+           padding: 15px 0px;
+            opacity: 0;
+            transition: 1s;
+
+        }
+
+        .serviec:hover .mega-menu {
+            visibility: visible;
+            opacity: 1;
+            left: 0px;
+
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+        .mega-menu li:hover{
+            color: red;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img width="184px" src="https://www.wscubetech.com/images/wscube-tech-logo.svg" alt="">
+            <ul class="menu">
+                <li>Home</li>
+                <li class="serviec">services
+                    <div class="mega-menu">
+                        <div>
+                            <div>
+                                <h3>Web Development</h3>
+                                <ul>
+                                    <li>Full Stack Web Development Course</li>
+                                    <li>WordPress Course</li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Professional Training</h3>
+                                <ul>
+                                    <li>Data Science Course</li>
+                                    <li>Data Analytics Course</li>
+                                    <li>Python Course</li>
+                                    <li>Graphic Design Course</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>App Development</h3>
+                                <ul>
+
+
+                                    <li> Android App Development Course</li>
+                                    <li>Flutter App Development Courses</li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Cyber Security
+
+                                </h3>
+                                <ul>
+
+                                    <li> Ethical Hacking Course</li>
+                                    <li>Penetration Testing Course</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Digital Marketing</h3>
+                                <ul>
+
+                                   
+                                    <li> SEO Course</li>
+                                    <li> Digital Marketing Course</li>
+                                    <li>Full Online Ads Course</li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Gallery</li>
+
+
+
+            </ul>
+        </div>
+
+    </header>
+
+    <div style="width: 1200px; margin: auto;">
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur
+            id laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Numquam eaque soluta quas tenetur rem consectetur id
+            laboriosam. Culpa quod iure suscipit ab sint, ex voluptates enim libero laborum quia sequi.</p>
+
+    </div>
+</body>
+
+</html>
